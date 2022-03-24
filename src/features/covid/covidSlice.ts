@@ -17,15 +17,15 @@ type covidState = {
 const initialState: covidState = {
   data: {
     confirmed: {
-      value: 10667217,
+      value: 475935572,
       detail: "https://covid19.mathdro.id/api/confirmed",
     },
     recovered: {
-      value: 5464367,
+      value: 0,
       detail: "https://covid19.mathdro.id/api/recovered",
     },
     deaths: {
-      value: 515646,
+      value: 6105722,
       detail: "https://covid19.mathdro.id/api/deaths",
     },
     dailySummary: "https://covid19.mathdro.id/api/daily",
@@ -40,7 +40,7 @@ const initialState: covidState = {
       pattern: "https://covid19.mathdro.id/api/countries/[country]",
       example: "https://covid19.mathdro.id/api/countries/USA",
     },
-    lastUpdate: "2020-07-02T02:33:53.000Z",
+    lastUpdate: "2022-03-24T12:20:48.000Z",
   },
   country: "",
   dailyData: [
