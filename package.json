@@ -1,5 +1,5 @@
 {
-  "name": "covid19_dashboard_bydate",
+  "name": "covid_dashboard",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

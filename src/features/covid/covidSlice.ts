@@ -14,19 +14,18 @@ type covidState = {
   country: string;
   dailyData: APIDATADAILY;
 };
-
 const initialState: covidState = {
   data: {
     confirmed: {
-      value: 470858971,
+      value: 10667217,
       detail: "https://covid19.mathdro.id/api/confirmed",
     },
     recovered: {
-      value: 0,
+      value: 5464367,
       detail: "https://covid19.mathdro.id/api/recovered",
     },
     deaths: {
-      value: 6078511,
+      value: 515646,
       detail: "https://covid19.mathdro.id/api/deaths",
     },
     dailySummary: "https://covid19.mathdro.id/api/daily",
@@ -41,20 +40,20 @@ const initialState: covidState = {
       pattern: "https://covid19.mathdro.id/api/countries/[country]",
       example: "https://covid19.mathdro.id/api/countries/USA",
     },
-    lastUpdate: "2022-03-21T12:20:49.000Z",
+    lastUpdate: "2020-07-02T02:33:53.000Z",
   },
   country: "",
   dailyData: [
     {
-      totalConfirmed: 557,
+      totalConfirmed: 555,
       mainlandChina: 548,
-      otherLocations: 9,
+      otherLocations: 7,
       deltaConfirmed: 0,
       totalRecovered: 0,
       confirmed: {
-        total: 557,
+        total: 555,
         china: 548,
-        outsideChina: 9,
+        outsideChina: 7,
       },
       deltaConfirmedDetail: {
         total: 0,
@@ -73,7 +72,7 @@ const initialState: covidState = {
       },
       active: 0,
       deltaRecovered: 0,
-      incidentRate: 0.4510818002025252,
+      incidentRate: 0.44821646978651847,
       peopleTested: 0,
       reportDate: "2020-01-22",
     },
