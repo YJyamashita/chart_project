@@ -6,6 +6,7 @@ import DashBoard from "./features/covid/DashBoard/DashBoard";
 
 function App()
 {
+	// eslint-disable-next-line @typescript-eslint/no-unused-expressions
 	<Cards />
 	
 	return <DashBoard />;
